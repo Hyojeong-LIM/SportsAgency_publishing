@@ -4,7 +4,7 @@ class GoTopComponent extends Component {
     render() {
         return (
             <>
-                <span id="goTop"><a href="#" class="go-top-btn"><i class="fa fa-arrow-circle-o-up"></i></a></span>
+                <span id="goTop"><a href="#" className="go-top-btn"><i className="fa fa-arrow-circle-o-up"></i></a></span>
 
             </>
         );

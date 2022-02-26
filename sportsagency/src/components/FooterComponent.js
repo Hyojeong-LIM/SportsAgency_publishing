@@ -6,17 +6,17 @@ class FooterComponent extends Component {
             <>
                 <footer id="footer">
                    <div class="container">
-                        <div class="wrap">
+                        <div className="wrap">
                                 <ul>
                                     <li>
                                         <ul>
                                             <li>
-                                                <div class="gap">
+                                                <div className="gap">
                                                     <h2>London Based<br/>Creative Studio</h2>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="gap">
+                                                <div className="gap">
                                                     <address>
                                                         301 The Greenhouse,<br/>
                                                         Custard Factory, London, E2 8DY.<br/>
@@ -26,7 +26,7 @@ class FooterComponent extends Component {
                                             </li>
                                             <li>
                                                 <div class="gap">
-                                                    <h1><a href="#" class="logo"><img src="./img/logo-white.png.webp" alt=""/></a></h1>
+                                                    <h1><a href="#" className="logo"><img src="./img/logo-white.png.webp" alt=""/></a></h1>
                                                     <p>
                                                         <span><a href="#">TWITTER</a></span>
                                                         <span><a href="#">FACEBOOK</a></span>

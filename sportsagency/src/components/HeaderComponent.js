@@ -4,19 +4,19 @@ class HeaderComponent extends Component {
     render() {
         return (
             <>
-                <header id="header" class="">
-                    <div class="container">
-                    <div class="wrap">
-                        <div class="logo">
+                <header id="header" className="">
+                    <div className="container">
+                    <div className="wrap">
+                        <div className="logo">
                             <a href="#"><img src="./img/logo.png.webp" alt="logo"/></a>
                         </div>
-                        <div class="navigation">
+                        <div className="navigation">
                             <nav id="nav">
                                     <ul>
                                     <li>
-                                        <a href="#" class="main-btn">HOME</a>
-                                        <div class="sub sub1">
-                                                <div class="sub-wrap">
+                                        <a href="#" className="main-btn">HOME</a>
+                                        <div className="sub sub1">
+                                                <div className="sub-wrap">
                                                     <ul>
                                                         <li>
                                                             <dl>
@@ -28,7 +28,7 @@ class HeaderComponent extends Component {
                                                                 <dd><a href="#">Classic One Page</a></dd>
                                                                 <dd><a href="#">Classic Start Up</a></dd>
                                                                 <dd><a href="#">Classic Interactive Agency</a></dd>
-                                                                <dd><a href="#">Classic Business<i class="new-deco">New</i></a></dd>
+                                                                <dd><a href="#">Classic Business<i className="new-deco">New</i></a></dd>
                                                                 <dd><a href="#">Classic Shop</a></dd>
                                                             </dl>
                                                         </li>
@@ -39,7 +39,7 @@ class HeaderComponent extends Component {
                                                                 <dd><a href="#">Creative Business</a></dd>
                                                                 <dd><a href="#">Creative Simple Portfolio</a></dd>
                                                                 <dd><a href="#">Creative Branding Agency</a></dd>
-                                                                <dd><a href="#">Creative Minimalist Portfolio<i class="new-deco">New</i></a></dd>
+                                                                <dd><a href="#">Creative Minimalist Portfolio<i className="new-deco">New</i></a></dd>
                                                                 <dd><a href="#">Creative Small Business</a></dd>
                                                                 <dd><a href="#">Creative Designer</a></dd>
                                                                 <dd><a href="#">Creative Agency</a></dd>
@@ -72,14 +72,14 @@ class HeaderComponent extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="#" class="main-btn">PAGES</a>
-                                        <div class="sub sub24 sub2">
-                                            <div class="sub-wrap">
+                                        <a href="#" className="main-btn">PAGES</a>
+                                        <div className="sub sub24 sub2">
+                                            <div className="sub-wrap">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" class="sub-btn">About <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                            <div class="sub-sub sub2-1">
-                                                                <div class="sub-sub-wrap">
+                                                            <a href="#" className="sub-btn">About <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                            <div className="sub-sub sub2-1">
+                                                                <div className="sub-sub-wrap">
                                                                         <ul>
                                                                             <li><a href="#">About Us Simple</a></li>
                                                                             <li><a href="#">About Us Classic</a></li>
@@ -90,9 +90,9 @@ class HeaderComponent extends Component {
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="sub-btn">Services <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                            <div class="sub-sub sub2-2">
-                                                                <div class="sub-sub-wrap">
+                                                            <a href="#" className="sub-btn">Services <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                            <div className="sub-sub sub2-2">
+                                                                <div className="sub-sub-wrap">
                                                                         <ul>
                                                                             <li><a href="#">Services Simple</a></li>
                                                                             <li><a href="#">Services Classic</a></li>
@@ -102,9 +102,9 @@ class HeaderComponent extends Component {
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="sub-btn">Contact <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                            <div class="sub-sub sub2-3">
-                                                                <div class="sub-sub-wrap">
+                                                            <a href="#" className="sub-btn">Contact <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                            <div className="sub-sub sub2-3">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Contact Simple</a></li>
                                                                             <li><a href="#">Contact Classic</a></li>
@@ -115,9 +115,9 @@ class HeaderComponent extends Component {
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="sub-btn">Team <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                            <div class="sub-sub sub2-4">
-                                                                <div class="sub-sub-wrap">
+                                                            <a href="#" className="sub-btn">Team <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                            <div className="sub-sub sub2-4">
+                                                                <div className="sub-sub-wrap">
                                                                         <ul>
                                                                             <li><a href="#">Team Simple</a></li>
                                                                             <li><a href="#">Team Classic</a></li>
@@ -126,9 +126,9 @@ class HeaderComponent extends Component {
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="sub-btn">Addition Pages <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                            <div class="sub-sub sub2-5">
-                                                                <div class="sub-sub-wrap">
+                                                            <a href="#" className="sub-btn">Addition Pages <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                            <div className="sub-sub sub2-5">
+                                                                <div className="sub-sub-wrap">
                                                                         <ul>
                                                                             <li><a href="#">Our Clients</a></li>
                                                                             <li><a href="#">Error 404</a></li>
@@ -147,9 +147,9 @@ class HeaderComponent extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="#" class="main-btn">PORTFOLIO</a>
-                                        <div class="sub sub3">
-                                            <div class="sub-wrap">
+                                        <a href="#" className="main-btn">PORTFOLIO</a>
+                                        <div className="sub sub3">
+                                            <div className="sub-wrap">
                                                 <ul>
                                                     <li>
                                                         <dl>
@@ -231,14 +231,14 @@ class HeaderComponent extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="#" class="main-btn">BLOG</a>
-                                        <div class="sub sub24 sub4">
-                                            <div class="sub-wrap">
+                                        <a href="#" className="main-btn">BLOG</a>
+                                        <div className="sub sub24 sub4">
+                                            <div className="sub-wrap">
                                                 <ul>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Standard <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-1">
-                                                                <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Standard <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-1">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Blog Standard - Full Width</a></li>
                                                                             <li><a href="#">Blog Standard With Left Sidebar</a></li>
@@ -248,9 +248,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Classic <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-2">
-                                                                <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Classic <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-2">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Blog Classic</a></li>
                                                                             <li><a href="#">Blog Classic - Full Width</a></li>
@@ -259,9 +259,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog List <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-3">
-                                                            <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog List <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-3">
+                                                            <div className="sub-sub-wrap">
                                                                     <ul>
                                                                         <li><a href="#">Blog List</a></li>
                                                                         <li><a href="#">Blog List - Full Width</a></li>
@@ -270,9 +270,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Grid <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-4">
-                                                                <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Grid <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-4">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Blog Grid</a></li>
                                                                             <li><a href="#">Blog Grid - Full Width</a></li>
@@ -281,9 +281,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Masonary <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-5">
-                                                            <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Masonary <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-5">
+                                                            <div className="sub-sub-wrap">
                                                                     <ul>
                                                                         <li><a href="#">Blog Masonry</a></li>
                                                                         <li><a href="#">Blog Masonry - Full Width</a></li>
@@ -292,9 +292,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Simple <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-6">
-                                                            <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Simple <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-6">
+                                                            <div className="sub-sub-wrap">
                                                                     <ul>
                                                                         <li><a href="#">Blog Simple</a></li>
                                                                         <li><a href="#">Blog Simple - Full Width</a></li>
@@ -303,9 +303,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Clean <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-7">
-                                                            <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Clean <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-7">
+                                                            <div className="sub-sub-wrap">
                                                                     <ul>
                                                                         <li><a href="#">Blog Clean</a></li>
                                                                         <li><a href="#">Blog Clean - Full Width</a></li>
@@ -314,9 +314,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Images <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-8">
-                                                                <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Images <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-8">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Blog Images</a></li>
                                                                             <li><a href="#">Blog Images - Full Width</a></li>
@@ -325,9 +325,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Blog Only Text <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-9">
-                                                                <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Blog Only Text <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-9">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Blog Only Text</a></li>
                                                                             <li><a href="#">Blog Only Text - Full Width</a></li>
@@ -336,9 +336,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Post Layout <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-10">
-                                                                <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Post Layout <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-10">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Blog Post Layout 01</a></li>
                                                                             <li><a href="#">Blog Post Layout 02</a></li>
@@ -350,9 +350,9 @@ class HeaderComponent extends Component {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="sub-btn">Post Type <i class="icon-arrow fa fa-angle-right"></i></a>
-                                                        <div class="sub-sub sub4-11">
-                                                                <div class="sub-sub-wrap">
+                                                        <a href="#" className="sub-btn">Post Type <i className="icon-arrow fa fa-angle-right"></i></a>
+                                                        <div className="sub-sub sub4-11">
+                                                                <div className="sub-sub-wrap">
                                                                     <ul>
                                                                             <li><a href="#">Standard Post</a></li>
                                                                             <li><a href="#">Gallery Post</a></li>
@@ -372,9 +372,9 @@ class HeaderComponent extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="#" class="main-btn">ELEMETNS</a>
-                                        <div class="sub sub5">
-                                            <div class="sub-wrap">
+                                        <a href="#" className="main-btn">ELEMETNS</a>
+                                        <div className="sub sub5">
+                                            <div className="sub-wrap">
                                                 <ul>
                                                     <li>
                                                         <dl>
@@ -445,9 +445,9 @@ class HeaderComponent extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="#" class="main-btn">FEATURES</a>
-                                        <div class="sub sub6">
-                                            <div class="sub-wrap">
+                                        <a href="#" className="main-btn">FEATURES</a>
+                                        <div className="sub sub6">
+                                            <div className="sub-wrap">
                                                 <ul>
                                                     <li>
                                                         <dl>
@@ -483,8 +483,8 @@ class HeaderComponent extends Component {
                                                             <dd><a href="#">Footer Strip Dark</a></dd>
                                                             <dd><a href="#">Footer Center Logo 02</a></dd>
                                                             <dd><a href="#">Footer Center Logo 02 Dark</a></dd>
-                                                            <dd><a href="#">Footer Clean Modern Dark<i class="new-deco">New</i></a></dd>
-                                                            <dd><a href="#">Footer Clean Modern<i class="new-deco">New</i></a></dd>
+                                                            <dd><a href="#">Footer Clean Modern Dark<i className="new-deco">New</i></a></dd>
+                                                            <dd><a href="#">Footer Clean Modern<i className="new-deco">New</i></a></dd>
                                                         </dl>
                                                     </li>
                                                     <li>
@@ -508,8 +508,8 @@ class HeaderComponent extends Component {
                                                             <dd><a href="#">Single Image Lightbox</a></dd>
                                                             <dd><a href="#">Lightbox Gallery</a></dd>
                                                             <dd><a href="#">Zoom Gallery</a></dd>
-                                                            <dd><a href="#">Metro Gallery<i class="new-deco">New</i></a></dd>
-                                                            <dd><a href="#">Justified Gallery<i class="new-deco">New</i></a></dd>
+                                                            <dd><a href="#">Metro Gallery<i className="new-deco">New</i></a></dd>
+                                                            <dd><a href="#">Justified Gallery<i className="new-deco">New</i></a></dd>
                                                             <dd><a href="#">Popup With Form</a></dd>
                                                             <dd><a href="#">Modal Popup</a></dd>
                                                             <dd><a href="#">Open Youtube Video</a></dd>
@@ -523,16 +523,16 @@ class HeaderComponent extends Component {
                                     </li>
                                     </ul>
                             </nav>
-                            <span class="mobile-btn-box">
-                                <a href="#" class="mobile-btn">
+                            <span className="mobile-btn-box">
+                                <a href="#" className="mobile-btn">
                                     <i></i>
                                     <i></i>
                                     <i></i>
                                 </a>
                             </span>
                             <aside id="aside">
-                                <span><a href="#"><i class="fa fa-search"></i></a></span>
-                                <span><a href="#"><i class="fa fa-codepen"></i></a></span>
+                                <span><a href="#"><i className="fa fa-search"></i></a></span>
+                                <span><a href="#"><i className="fa fa-codepen"></i></a></span>
                             </aside>
                         </div>
                     </div>
