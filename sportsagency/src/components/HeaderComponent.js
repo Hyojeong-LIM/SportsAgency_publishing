@@ -8,7 +8,7 @@ class HeaderComponent extends Component {
                     <div className="container">
                     <div className="wrap">
                         <div className="logo">
-                            <a href="#"><img src="./img/logo.png.webp" alt="logo"/></a>
+                            <a href="#"><img src={process.env.PUBLIC_URL+"/img/logo.png.webp"} alt="logo"/></a>
                         </div>
                         <div className="navigation">
                             <nav id="nav">
@@ -222,8 +222,8 @@ class HeaderComponent extends Component {
                                                     </li>
                                                     <li>
                                                         <dl>
-                                                                <dt><a href="#"><img src="./img/menu-banner-01.jpg.webp" alt=""/></a></dt>
-                                                                <dd><img src="./img/menu-banner-02.jpg.webp" alt=""/></dd>
+                                                                <dt><a href="#"><img src={process.env.PUBLIC_URL+"/img/menu-banner-01.jpg.webp"} alt=""/></a></dt>
+                                                                <dd><img src={process.env.PUBLIC_URL+"/img/menu-banner-02.jpg.webp"} alt=""/></dd>
                                                         </dl>
                                                     </li>
                                                 </ul>

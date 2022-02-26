@@ -72,7 +72,7 @@ class MainComponent extends Component {
                                         <li className="col col1">
                                             <div className="gap">
                                                 <div className="img-box">
-                                                    <img src="./img/man-g87f164b21_1920.jpg" alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+"/img/man-g87f164b21_1920.jpg"} alt=""/>
                                                 </div>
                                                 <div className="text-box">
                                                     <div>
@@ -86,7 +86,7 @@ class MainComponent extends Component {
                                         <li className="col col2">
                                             <div className="gap">
                                                 <div className="img-box">
-                                                    <img src="./img/soccer-g77622786b_1920.jpg" alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+"/img/soccer-g77622786b_1920.jpg"} alt=""/>
                                                 </div>
                                                 <div className="text-box">
                                                     <div>
@@ -100,7 +100,7 @@ class MainComponent extends Component {
                                         <li className="col col3">
                                             <div className="gap">
                                                 <div className="img-box">
-                                                    <img src="./img/paddle-tennis-g85c96a72e_1920.jpg" alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+"/img/paddle-tennis-g85c96a72e_1920.jpg"} alt=""/>
                                                 </div>
                                                 <div className="text-box">
                                                     <div>
@@ -193,7 +193,7 @@ class MainComponent extends Component {
                                     <ul className="gallery">
                                         <li className="gallery-item row1-col row1-col1">
                                             <div className="gap">
-                                                <img src="./img/sec4_07.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4_07.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -205,7 +205,7 @@ class MainComponent extends Component {
                                         </li>
                                         <li className="gallery-item row1-col row1-col2">
                                             <div className="gap">
-                                                <img src="./img/sec4_05.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4_05.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -217,7 +217,7 @@ class MainComponent extends Component {
                                         </li>
                                         <li className="gallery-item row1-col row1-col3">
                                             <div className="gap">
-                                                <img src="./img/sec4_01.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4_01.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -229,7 +229,7 @@ class MainComponent extends Component {
                                         </li>
                                         <li className="gallery-item row1-col row1-col4">
                                             <div className="gap">
-                                                <img src="./img/sec4_09.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4_09.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -241,7 +241,7 @@ class MainComponent extends Component {
                                         </li>
                                         <li className="gallery-item row2-col row2-col1">
                                             <div className="gap">
-                                                <img src="./img/sec4_06.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4_06.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -253,7 +253,7 @@ class MainComponent extends Component {
                                         </li>
                                         <li className="gallery-item row2-col row2-col2">
                                             <div className="gap">
-                                                <img src="./img/sec4.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -265,7 +265,7 @@ class MainComponent extends Component {
                                         </li>
                                         <li className="gallery-item row2-col row2-col3">
                                             <div className="gap">
-                                                <img src="./img/sec4_08.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4_08.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -277,7 +277,7 @@ class MainComponent extends Component {
                                         </li>
                                         <li className="gallery-item row2-col row2-col4">
                                             <div className="gap">
-                                                <img src="./img/sec4_03.jpg" alt=""/>
+                                                <img src={process.env.PUBLIC_URL+"/img/sec4_03.jpg"} alt=""/>
                                                 <a href="#">
                                                     <span>
                                                         <i></i>
@@ -377,7 +377,7 @@ class MainComponent extends Component {
                                                             <li><a href="#">VIEW SPORTS CASE</a></li>
                                                         </ul>
                                                     </div>
-                                                    <img src="./img/case-study-01.jpg.webp" alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+"/img/case-study-01.jpg.webp"} alt=""/>
                                                 </div>
                                             </div>
                                         </li>
@@ -392,7 +392,7 @@ class MainComponent extends Component {
                                                             <li><a href="#">VIEW SPORTS CASE</a></li>
                                                         </ul>
                                                     </div>
-                                                    <img src="./img/case-study-02.jpg.webp" alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+"/img/case-study-02.jpg.webp"} alt=""/>
                                                 </div>
                                             </div>
                                         </li>
@@ -407,7 +407,7 @@ class MainComponent extends Component {
                                                             <li><a href="#">VIEW SPORTS CASE</a></li>
                                                         </ul>
                                                     </div>
-                                                    <img src="./img/case-study-03.jpg.webp" alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+"/img/case-study-03.jpg.webp"} alt=""/>
                                                 </div>
                                             </div>
                                         </li>
@@ -431,7 +431,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="sec7-contents">
                                                     <div className="col-wrap">
-                                                        <img src="./img/ambassador.jpg" alt="coach1"/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/ambassador.jpg"} alt="coach1"/>
                                                         <div className="img-caption">
                                                             <ul>
                                                                 <li>
@@ -458,7 +458,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="sec7-contents">
                                                     <div className="col-wrap">
-                                                        <img src="./img/man-g0f98.jpg" alt="coach2"/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/man-g0f98.jpg"} alt="coach2"/>
                                                         <div className="img-caption">
                                                             <ul>
                                                                 <li>
@@ -485,7 +485,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="sec7-contents">
                                                     <div className="col-wrap">
-                                                        <img src="./img/sports-ge9dc7eee2.jpg" alt="coach3"/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/sports-ge9dc7eee2.jpg"} alt="coach3"/>
                                                         <div className="img-caption">
                                                             <ul>
                                                                 <li>
@@ -512,7 +512,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="sec7-contents">
                                                     <div className="col-wrap">
-                                                        <img src="./img/doctor.jpg" alt="doctor"/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/doctor.jpg"} alt="doctor"/>
                                                         <div className="img-caption">
                                                             <ul>
                                                                 <li>
@@ -578,7 +578,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="col-box">
                                                     <div className="img-box">
-                                                        <img src="./img/person-g171062.jpg" alt=""/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/person-g171062.jpg"} alt=""/>
                                                     </div>
                                                     <div className="text-box">
                                                         <div className="top">
@@ -600,7 +600,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="col-box">
                                                     <div className="img-box">
-                                                        <img src="./img/cross-country-skiing.jpg" alt=""/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/cross-country-skiing.jpg"} alt=""/>
                                                     </div>
                                                     <div className="text-box">
                                                         <div className="top">
@@ -622,7 +622,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="col-box">
                                                     <div className="img-box">
-                                                        <img src="./img/tennis-g90.jpg" alt=""/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/tennis-g90.jpg"} alt=""/>
                                                     </div>
                                                     <div className="text-box">
                                                         <div className="top">
@@ -644,7 +644,7 @@ class MainComponent extends Component {
                                             <div className="gap">
                                                 <div className="col-box">
                                                     <div className="img-box">
-                                                        <img src="./img/baseball-g4befe.jpg" alt=""/>
+                                                        <img src={process.env.PUBLIC_URL+"/img/baseball-g4befe.jpg"} alt=""/>
                                                     </div>
                                                     <div className="text-box">
                                                         <div className="top">
