@@ -26,7 +26,7 @@ class FooterComponent extends Component {
                                             </li>
                                             <li>
                                                 <div class="gap">
-                                                    <h1><a href="#" className="logo"><img src={process.env.PUBLIC_URL+"/img/logo-white.png.webp" alt=""/></a></h1>
+                                                    <h1><a href="#" className="logo"><img src={process.env.PUBLIC_URL+"/img/logo-white.png.webp"} alt=""/></a></h1>
                                                     <p>
                                                         <span><a href="#">TWITTER</a></span>
                                                         <span><a href="#">FACEBOOK</a></span>
