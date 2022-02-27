@@ -25,7 +25,7 @@ class FooterComponent extends Component {
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="gap">
+                                                <div className="gap">
                                                     <h1><a href="#" className="logo"><img src={process.env.PUBLIC_URL+"/img/logo-white.png.webp"} alt=""/></a></h1>
                                                     <p>
                                                         <span><a href="#">TWITTER</a></span>
@@ -38,19 +38,19 @@ class FooterComponent extends Component {
                                         </ul>
                                     </li>
                                     <li>
-                                        <div class="gap">
+                                        <div className="gap">
                                             <i></i>
                                         </div>
                                     </li>
                                     <li>
                                         <ul>
                                             <li>
-                                                <div class="gap">
+                                                <div className="gap">
                                                     <h2>POFO - Portfolio Concept Theme</h2>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="gap">
+                                                <div className="gap">
                                                     <p>&copy; 2021 POFO is Proudly Powered by <a href="#">ThemeZaa</a></p>
                                                 </div>
                                             </li>
